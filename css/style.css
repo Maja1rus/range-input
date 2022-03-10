@@ -1,0 +1,88 @@
+.wrap {
+    width: 256px;
+    padding: 0 20px;
+}
+
+.field input {
+    border: 1px solid #CACCCF;
+    width: 60px;
+    height: 30px;
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 30px;
+    border-radius: 2px;
+    color: #828282;
+}
+
+.input__text {
+    position: relative;
+    left: -93px;
+}
+
+.price-input input[type="number"]::-webkit-outer-spin-button,
+.price-input input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.price-input input[type='number'],
+.price-input input[type="number"]:hover,
+.price-input input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.price-input {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+
+.slider {
+  height: 4px;
+  position: relative;
+  background:  #CACCCF;
+}
+
+.slider .progress {
+  height: 100%;
+  position: absolute;
+  background-color: #FF6262;
+}
+
+.range-input {
+  position: relative;
+}
+
+.range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -7px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.range-input input[type="range"]::-webkit-slider-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: 4px solid #FF6262;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.range-input input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
